@@ -1,0 +1,28 @@
+{
+  "name": "extension-hcai-frontend",
+  "version": "1.0.0",
+  "description": "Extensión Chromium MV3 (HCAI Overlay) para Google Classroom",
+  "scripts": {
+    "build": "vite build --mode content && vite build --mode background",
+    "build:dev": "vite build --mode content-debug && vite build --mode background-debug",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.3.4",
+    "@types/node": "^26.6.4",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.29",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  }
+}

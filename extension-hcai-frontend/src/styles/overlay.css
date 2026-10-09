@@ -1,0 +1,8 @@
+/* Hoja de estilos del Shadow DOM: se compila con Tailwind v3 y se inyecta como texto en el shadowRoot. */
+:host {
+  all: initial;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
